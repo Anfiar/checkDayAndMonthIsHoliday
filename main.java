@@ -1,0 +1,57 @@
+public class Main {
+    public static void main(String[] args) {
+        Utils.check(1, 2, 3);
+        Utils.check(-8, -5, 0);
+        Utils.check(1, -5, 2);
+        Utils.check(3, 0, -5);
+        System.out.println("////////");
+        System.out.println("56.11");
+        Utils.checkDayAndMonthIsHoliday(56,11);
+        System.out.println("1.1");
+        Utils.checkDayAndMonthIsHoliday(1,1);
+        System.out.println("2.1");
+        Utils.checkDayAndMonthIsHoliday(2,1);
+        System.out.println("7.1");
+        Utils.checkDayAndMonthIsHoliday(7,1);
+        System.out.println("20.2");
+        Utils.checkDayAndMonthIsHoliday(20,2);
+        System.out.println("30.2");
+        Utils.checkDayAndMonthIsHoliday(30,2);
+        System.out.println("8.3");
+        Utils.checkDayAndMonthIsHoliday(8,3);
+        System.out.println("6.3");
+        Utils.checkDayAndMonthIsHoliday(6,3);
+        System.out.println("1.5");
+        Utils.checkDayAndMonthIsHoliday(1,5);
+        System.out.println("9.5");
+        Utils.checkDayAndMonthIsHoliday(9,5);
+        System.out.println("16.5");
+        Utils.checkDayAndMonthIsHoliday(16,5);
+        System.out.println("3.7");
+        Utils.checkDayAndMonthIsHoliday(3,7);
+        System.out.println("12.7");
+        Utils.checkDayAndMonthIsHoliday(12,7);
+        System.out.println("14.9");
+        Utils.checkDayAndMonthIsHoliday(14,9);
+        System.out.println("23.6");
+        Utils.checkDayAndMonthIsHoliday(23,6);
+        System.out.println("7.11");
+        Utils.checkDayAndMonthIsHoliday(7,11);
+        System.out.println("22.11");
+        Utils.checkDayAndMonthIsHoliday(22,11);
+        System.out.println("25.12");
+        Utils.checkDayAndMonthIsHoliday(25,12);
+        System.out.println("31.12");
+        Utils.checkDayAndMonthIsHoliday(31,12);
+        System.out.println("3.13");
+        Utils.checkDayAndMonthIsHoliday(3,13);
+        System.out.println("38.13");
+        Utils.checkDayAndMonthIsHoliday(38,13);
+        System.out.println("-3.18");
+        Utils.checkDayAndMonthIsHoliday(-3,18);
+        System.out.println("0.-1");
+        Utils.checkDayAndMonthIsHoliday(0,-1);
+        System.out.println("-8.-2");
+        Utils.checkDayAndMonthIsHoliday(-8,-2);
+    }
+}
